@@ -122,6 +122,8 @@ eval "$(zoxide init bash)"
 alias l="eza -lha"
 alias l2="eza -lha --tree --level=2"
 alias c="clear"
+alias bat="batcat"
 
 # Set up fzf key bindings and fuzzy completion
 eval "$(fzf --bash)"
+
