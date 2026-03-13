@@ -117,7 +117,11 @@ if ! shopt -oq posix; then
 fi
 
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"
 
 alias l="eza -lha"
 alias l2="eza -lha --tree --level=2"
 alias c="clear"
+
+# Set up fzf key bindings and fuzzy completion
+eval "$(fzf --bash)"

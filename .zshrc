@@ -110,3 +110,6 @@ alias c=clear
 . "$HOME/.local/bin/env"
 
 eval "$(zoxide init zsh)"
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
