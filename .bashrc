@@ -124,6 +124,8 @@ alias l2="eza -lha --tree --level=2"
 alias c="clear"
 alias bat="batcat"
 
-# Set up fzf key bindings and fuzzy completion
-eval "$(fzf --bash)"
+export PATH="$HOME/.local/bin:$PATH"
 
+export PATH="$HOME/.cargo/bin:$PATH"
+
+. "$HOME/.cargo/env"
