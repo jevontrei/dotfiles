@@ -113,3 +113,6 @@ eval "$(zoxide init zsh)"
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+
+path+=/usr/local/bin/tailscale
+
