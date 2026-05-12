@@ -105,6 +105,8 @@ source $ZSH/oh-my-zsh.sh
 
 alias l="eza -lha"
 alias l2="eza -lha --tree --level=2"
+alias l3="eza -lha --tree --level=3"
+alias l4="eza -lha --tree --level=4"
 alias c=clear
 
 . "$HOME/.local/bin/env"
@@ -116,3 +118,12 @@ source <(fzf --zsh)
 
 path+=/usr/local/bin/tailscale
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/joel/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
