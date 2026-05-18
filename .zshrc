@@ -127,3 +127,5 @@ fpath=(/Users/joel/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
