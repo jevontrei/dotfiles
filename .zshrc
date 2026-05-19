@@ -108,6 +108,7 @@ alias l2="eza -lha --tree --level=2"
 alias l3="eza -lha --tree --level=3"
 alias l4="eza -lha --tree --level=4"
 alias c=clear
+alias p=pwd
 
 . "$HOME/.local/bin/env"
 
