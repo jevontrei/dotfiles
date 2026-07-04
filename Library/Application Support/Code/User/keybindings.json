@@ -1,0 +1,16 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+r",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "shift+alt+r",
+        "command": "python.execInDedicatedTerminal"
+    },
+    {
+        "key": "shift+alt+k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalHasBeenCreated || terminalProcessSupported"
+    }
+]
